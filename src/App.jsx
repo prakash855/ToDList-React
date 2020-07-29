@@ -28,9 +28,10 @@ const App = () => {
           <br />
           <h1>ToDo List</h1>
           <br />
+          <h3>Add items</h3>
           <input
             type="text"
-            placeholder="Add items"
+            placeholder="Enter Task Name"
             value={inputList}
             onChange={itemEvent}
           />
